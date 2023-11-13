@@ -12,20 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24368a37222c39f4e93e310a6011e2fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentView: 
-  PreviousView: TableOfContent
+  CurrentView: TableOfContent
+  PreviousView: 
   DomainReloadOccured: 1
   IsOpen: 1
   AreTestsRunning: 0
-  CurrentTutorial: {fileID: 11400000, guid: de3e67e070da3465d9e73c46aeaca347, type: 2}
+  CurrentTutorial: {fileID: 0}
   PlayModeChanging: 1
-  ActiveScenesBeforeTutorialStarted:
-  - Active: 1
-    AssetPath: Assets/Scenes/Park.unity
-    WasLoaded: 1
+  ActiveScenesBeforeTutorialStarted: []
   SceneViewStateBeforeTutorialStarted:
     In2DMode: 0
     Orthographic: 0
-    Size: 16.662521
-    Point: {x: -2.3449113, y: -1.322309, z: 33.184685}
-    Direction: {x: 0.121505246, y: -0.008624424, z: 0.0010580318, w: 0.9925604}
+    Size: 13.209223
+    Point: {x: -2.5992036, y: -2.8728335, z: 32.66256}
+    Direction: {x: 0.054058004, y: -0.09092922, z: 0.0049451874, w: 0.9943857}
