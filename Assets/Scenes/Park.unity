@@ -218,11 +218,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2db7e17401e08b94697ecd7acce75ab1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.66
+      value: -3.79
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2db7e17401e08b94697ecd7acce75ab1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.244604
+      value: 18.64
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2db7e17401e08b94697ecd7acce75ab1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -256,6 +256,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: b88883f9b3b7e4563b09bf6c3958c017, type: 2}
+    - target: {fileID: 9500000, guid: 2db7e17401e08b94697ecd7acce75ab1, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2db7e17401e08b94697ecd7acce75ab1, type: 3}
 --- !u!1001 &87955793
@@ -2139,7 +2143,7 @@ MonoBehaviour:
   speed: 4
   rotSpeed: 90
   rot: 0
-  gravity: 8
+  gravity: 10
   running: 0
   moveDir: {x: 0, y: 0, z: 0}
 --- !u!143 &823065981
@@ -2179,6 +2183,11 @@ Rigidbody:
 --- !u!95 &823065983 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9500000, guid: 2db7e17401e08b94697ecd7acce75ab1, type: 3}
+  m_PrefabInstance: {fileID: 9854091}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &823065984 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 2db7e17401e08b94697ecd7acce75ab1, type: 3}
   m_PrefabInstance: {fileID: 9854091}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &842409459
@@ -2460,6 +2469,7 @@ GameObject:
   - component: {fileID: 911928638}
   - component: {fileID: 911928637}
   - component: {fileID: 911928636}
+  - component: {fileID: 911928641}
   - component: {fileID: 911928639}
   m_Layer: 0
   m_Name: Main Camera
@@ -2547,6 +2557,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Id: afa8c4a9-088a-47c7-843c-05a5a80d9f1f
+--- !u!114 &911928641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911928634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3f7eba2ea472480ab7b097a359403c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 823065984}
+  offset: {x: -1, y: 2, z: -5}
 --- !u!1001 &954905750
 PrefabInstance:
   m_ObjectHideFlags: 0
